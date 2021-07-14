@@ -13,7 +13,6 @@ after_success:
   - docker build -t yanivhome/multi-nginx ./nginx
   - docker build -t yanivhome/multi-server ./server
   - docker build -t yanivhome/multi-worker ./worker
-  
   # Log in to the docker cli
   - echo "$DOCKER_PASSWORD" | docker_login -u "$DOCKER_ID" --password-stdin
   # Take those images and push them to docker hub 
