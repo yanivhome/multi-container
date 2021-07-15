@@ -24,7 +24,7 @@
     },
     {
       "name" : "nginx",
-      "image" : "yanivhome1/multi-mginx",
+      "image" : "yanivhome1/multi-nginx",
       "hostname" : "nginx",
       "essentinal" : true,
       "portMappings" : [
